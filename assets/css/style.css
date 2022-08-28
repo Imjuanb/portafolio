@@ -10,3 +10,21 @@
     box-shadow: 7px 7px 7px rgba(0 0 0 / 0.5);
     border: ridge #fff;
   }
+.card {
+    max-width: 24rem;
+    transition: .3s;
+    padding: 5pt;
+}
+.card img {
+    object-fit: cover;
+    object-position: center;
+    max-height: 20rem;
+}
+.card:hover {
+    transform:scale(1.1);
+    margin: 5pt;
+    box-shadow: 8px 8px 8px rgba(0 0 0 / 0.5);
+    background-color: rgba(0, 0, 0, 0.564);
+    color: white;
+
+}
